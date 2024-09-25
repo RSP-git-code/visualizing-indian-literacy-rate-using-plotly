@@ -17,6 +17,7 @@ for feature in indian_states['features']:
     feature['id']=feature['properties']['state_code']
     state_id_map[feature['properties']['st_nm']]=feature['id']
 print(state_id_map)
+#Note:Provide the path of the file where excel file is stored
 df=pd.read_excel(r'C:\Users\RIYA\OneDrive\Desktop\literacyrate_data.xlsx')
 # Remove rows with NaN values in the 'State' or 'Average' columns
 df = df.dropna(subset=['State', 'Average'])
