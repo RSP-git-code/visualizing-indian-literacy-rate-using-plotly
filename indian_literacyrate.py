@@ -8,6 +8,7 @@ import numpy as np
 #Drawing Map in Map:
 import plotly.io as pio
 #India Map:
+#Note:Provide the path of the file where geojson file is stored
 indian_states=json.load(open("C:\\Users\\RIYA\\OneDrive\\Desktop\\VS Code Quickstart\\Mapping in Python\\states_india.geojson",'r',encoding='utf-8'))
 pprint.pprint((indian_states['features'][1]))
 #Id : for mapping each state
