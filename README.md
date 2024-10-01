@@ -15,7 +15,8 @@ This project visualizes the literacy rates of Indian states using a **Choropleth
 
 ## Output
 The project generates an interactive map, as shown below, depicting literacy rates across states in India.
-![image](https://github.com/user-attachments/assets/83111757-4c90-47af-b7db-8f103a93f3f9)
+![image](https://github.com/user-attachments/assets/d93417be-51be-46bb-afef-846d650311f9)
+
 
 
 
