@@ -3,8 +3,8 @@
 This project visualizes the literacy rates of Indian states using a **Choropleth map**. It leverages **Plotly** for interactive map plotting, with data sourced from an Excel file and geographic boundaries from a GeoJSON file.
 
 ## Files
-- **states_india.geojson**: GeoJSON file defining Indian state boundaries.
-- **literacyrate_data.xlsx**: Dataset containing the literacy rates for each Indian state.
+- **states_india.geojson**: GeoJSON file defining Indian state boundaries:[https://un-mapped.carto.com/tables/states_india/public/map].
+- **literacyrate_data.xlsx** (optional): Dataset containing the literacy rates for each Indian state. You can even use pd.read_html(url) and put wikipedia  by inserting the url
 
 ## Key Libraries
 - `pandas`
