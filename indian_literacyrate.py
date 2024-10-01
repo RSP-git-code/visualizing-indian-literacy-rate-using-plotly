@@ -9,7 +9,7 @@ import numpy as np
 import plotly.io as pio
 #India Map:
 #Note:Provide the path of the file where geojson file is stored
-indian_states=json.load(open("C:\\Users\\RIYA\\OneDrive\\Desktop\\VS Code Quickstart\\Mapping in Python\\states_india.geojson",'r',encoding='utf-8'))
+indian_states=json.load(open(#C://Path,'r',encoding='utf-8'))
 pprint.pprint((indian_states['features'][1]))
 #Id : for mapping each state
 state_id_map={}
@@ -18,7 +18,7 @@ for feature in indian_states['features']:
     state_id_map[feature['properties']['st_nm']]=feature['id']
 print(state_id_map)
 #Note:Provide the path of the file where excel file is stored
-df=pd.read_excel(r'C:\Users\RIYA\OneDrive\Desktop\literacyrate_data.xlsx')
+df=pd.read_excel(#r'C:\Users\RIYA\OneDrive\Desktop\literacyrate_data.xlsx')
 # Remove rows with NaN values in the 'State' or 'Average' columns
 df = df.dropna(subset=['State', 'Average'])
 print(df.head())
